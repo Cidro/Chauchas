@@ -26,7 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('JB-PABLOH02'),
+	'local' => array('JB-PABLOH02', 'pablo-laptop'),
 
 ));
 

@@ -5,4 +5,4 @@ machine:
     version: 5.4.21
 test:
   override:
-    - phpunit --log-junit ${CI_REPORTS}/junit.xml
+    - phpunit --log-junit ${CI_REPORTS}/../rspec/rspec.xml

@@ -3,3 +3,6 @@ machine:
     America/Toronto
   php:
     version: 5.4.21
+test:
+  override:
+    - phpunit --log-junit ${CI_REPORTS}/junit.xml

@@ -1,0 +1,5 @@
+machine:
+  timezone:
+    America/Toronto
+  php:
+    version: 5.4.21
